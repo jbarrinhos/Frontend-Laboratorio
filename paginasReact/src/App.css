@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.botao {
+  margin: 15px;
+}
+
+.botao button {
+  padding: 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 10%;
+  background-color: rgb(1, 129, 138);
+  color: white;
+}
+
+.botao button:hover {
+  border: none;
+  font-weight: bold;
+  color: black;
+}
+
+.headerNav {
+  background-color: rgb(1, 129, 138);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
